@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Sistema Detran -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+        <title>Cadastro</title>
+    </head>
+
+    <body>  
+
+    
+        <div>
+            <h1 id="titulo"> formulário</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+      <script><
+        function exibir(){
+          let nome = document.getElementById("nome");
+          let idade = document.getElementById("idade");
+          let profissão = document.getElementById("profissão");
+          let email = document.getElementById("email");
+          let telefone = document.getElementById("telefone"); 
+          console.log("Nome"+nome);
+          console.log("Idade"+idade);
+          console.log("Profssão"+profissao);
+          console.log("Email"+emal);
+          console.log("Telefone"+telefone);
+          
+        }
+      </script>
+        <form>
+
+            <fieldset class="grupo">
+                
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="Idade"><strong>Idade</strong></label>
+                    <input type="number" name="Idade" id="Idade" required>
+                </div>
+
+            <div class="campo">
+                <label for="profissao"><strong>Profissão</strong></label>
+                <input type="text" name="profissao" id="profissao" required>
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="text" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone"><strong>telefone</strong></label>
+                <input type="number" name="telefone" id="telefone" required>
+            </div>
+            </fieldset> 
+
+        </form>
+        <button class="botao" type="submit" onsubmit="">Concluído</button> 
+    </body>
+
+</html>
+
+
